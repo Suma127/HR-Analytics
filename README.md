@@ -59,6 +59,9 @@ Performed data cleaning using Power Query:
 - Validated salary columns
 
 ---
+## Screenshots Included:
+<img width="1086" height="612" alt="image" src="https://github.com/user-attachments/assets/65542fbf-9625-42b6-b6b8-d98f07afb180" />
+
 
 ## DAX Measures Created
 
@@ -75,6 +78,5 @@ Attrition Rate
 Attrition Rate = DIVIDE(CALCULATE(COUNT(HR_Analytics[EmployeeNumber]),HR_Analytics[Attrition] = "Yes"),
     COUNT(HR_Analytics[EmployeeNumber]))
 
----
 
 
